@@ -10,7 +10,7 @@ const [values, setValues] = useState("");
   newRef.current.focus();
  };
  const settingValue = () => {
-  setValues(newRef.current.values);
+  setValues(newRef.current.value);
  }
 
 
